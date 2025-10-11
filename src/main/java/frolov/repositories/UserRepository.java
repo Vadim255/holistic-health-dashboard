@@ -1,6 +1,6 @@
 package frolov.repositories;
 
-import frolov.models.User;
+import frolov.models.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

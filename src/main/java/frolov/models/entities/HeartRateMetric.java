@@ -1,5 +1,6 @@
-package frolov.models;
+package frolov.models.entities;
 
+import frolov.models.entities.HealthMetric;
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import lombok.Data;
@@ -10,7 +11,7 @@ import lombok.ToString;
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 @Entity
-@DiscriminatorValue("WEIGHT")
-public class WeightMetric extends HealthMetric {
-    private double valueKg;
+@DiscriminatorValue("HEART_RATE")
+public class HeartRateMetric extends HealthMetric {
+    private int beatsPerMinute;
 }

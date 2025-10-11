@@ -1,4 +1,4 @@
-package frolov.models;
+package frolov.models.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

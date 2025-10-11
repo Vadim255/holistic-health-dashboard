@@ -1,6 +1,6 @@
 package frolov.repositories;
 
-import frolov.models.HealthMetric;
+import frolov.models.entities.HealthMetric;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package frolov.servicies;
 
-import frolov.models.HealthMetric;
+import frolov.models.entities.HealthMetric;
 import frolov.repositories.HealthMetricRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
